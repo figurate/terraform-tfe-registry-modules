@@ -1,8 +1,8 @@
-# Terraform Module Template
+# Terraform Registry Modules
 
-[![CI](https://github.com/figurate/terraform-module-template/actions/workflows/main.yml/badge.svg)](https://github.com/figurate/terraform-module-template/actions/workflows/main.yml)
+[![CI](https://github.com/figurate/terraform-tfe-registry-modules/actions/workflows/main.yml/badge.svg)](https://github.com/figurate/terraform-tfe-registry-modules/actions/workflows/main.yml)
 
-![Terraform Module Template](terraform\_module\_template.png)
+![Terraform Registry Modules](terraform\_registry\_modules.png)
 
 ## Requirements
 
@@ -10,11 +10,15 @@ No requirements.
 
 ## Providers
 
-No provider.
+| Name | Version |
+|------|---------|
+| tfe | n/a |
 
 ## Inputs
 
-No input.
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| module\_repos | A list of VCS repository paths for modules | `list(string)` | `[]` | no |
 
 ## Outputs
 
